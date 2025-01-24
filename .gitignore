@@ -145,3 +145,6 @@ cython_debug/
 
 # Log file
 discord.log
+
+cost_tracking.json
+message_history.json
