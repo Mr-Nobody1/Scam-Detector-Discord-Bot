@@ -5,10 +5,16 @@ import json
 import os
 from openai import OpenAI
 from discord.ext.commands import Context
+from dotenv import load_dotenv
 
-# Initialize the OpenAI client
-client = OpenAI(api_key="sk-111a6a9431704221979716ad6090fbe7", base_url="https://api.deepseek.com")
+# Load environment variables from .env file
+load_dotenv()
 
+# Initialize the OpenAI client with environment variable
+client = OpenAI(
+    api_key=os.getenv('DEEPSEEK_API_KEY'),
+    base_url="https://api.deepseek.com"
+)
 # Define cost rates (replace with actual rates from your provider)
 DEEPSEEK_INPUT_COST_PER_1K_TOKENS = 0.01  # $0.01 per 1k input tokens
 DEEPSEEK_OUTPUT_COST_PER_1K_TOKENS = 0.02  # $0.02 per 1k output tokens
