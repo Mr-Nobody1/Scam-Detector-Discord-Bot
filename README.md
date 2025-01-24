@@ -82,7 +82,6 @@ TOKEN=your-discord-token
 - `addlink` - Block malicious URLs
 
 ### Fun Commands
-- `catmeme` - Random cat meme
 - `coinflip` - Virtual coin toss
 - `8ball` - Magic 8ball predictions
 - `randomfact` - Interesting trivia
