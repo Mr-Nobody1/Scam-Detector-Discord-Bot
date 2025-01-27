@@ -14,7 +14,6 @@ A feature-rich Discord bot with moderation tools, fun commands, AI chat capabili
   - Bitcoin price tracking
   - Automated crypto help threads
 - **Fun Commands**:
-  - Cat memes
   - 8ball predictions
   - Coin flip
   - Rock-paper-scissors
